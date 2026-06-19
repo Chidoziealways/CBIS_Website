@@ -1,10 +1,11 @@
-﻿function About() {
+﻿import "./About.css"
+
+function About() {
     return (
-        <>
-            <div className="about-div">
-                <p>This school... is one of the worst...</p>
-            </div>
-        </>
+        <div className="about">
+            <h1> CBIS Magodo </h1>
+            <p>This school... is one of the worst...</p>
+        </div>
     )
 }
 
