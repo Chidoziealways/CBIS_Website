@@ -4,7 +4,7 @@ import "./NavigationBar.css"
 
 const NavigationBar: React.FC = () => {
     return (
-        <nav className="navBar">
+        <nav className="navbar">
             <div className="navbar-logo">CBIS Magodo</div>
             <ul className="navbar-links">
                 <li><Link to="/">Home</Link></li>

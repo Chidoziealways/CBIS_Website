@@ -10,23 +10,29 @@ function App() {
   return (
       <>
         <NavigationBar />
+          <Banner
+              title="CBIS Magodo"
+              subtitle="...Faith in God"
+          />
         <Routes>
           <Route
             path="/about"
             element = {
               <>
-                  <Banner
-                      title="CBIS Magodo"
-                      subtitle="A School... in SHawarma"
-                  />
                   <About />
               </>
             }
           />
+            <Route path="/" element={
+                <>
+                    <About />
+                    <div>
+                        <p>A School in Magodo</p>
+                    </div>
+                </>
+            }
+            />
         </Routes>
-        <div>
-          <p>A School in Magodo</p>
-        </div>
     </>
   )
 }
